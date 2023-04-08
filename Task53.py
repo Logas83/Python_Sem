@@ -7,12 +7,6 @@
 
 file_path = r'phone_base.txt'
 
-# def OpenFile():
-#     file_path = r'phone_base.txt'
-#     with open(file_path, 'r') as f:
-#         for line in f:
-#             print(line.strip())
-
 
 def DataSearch(name):
     with open(file_path, 'r', encoding='utf8') as f:
